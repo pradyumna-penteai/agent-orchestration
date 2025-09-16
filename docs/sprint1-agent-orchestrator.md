@@ -42,11 +42,15 @@ graph TD
   CacheLayer[Cache Layer]
   
   subgraph Orchestrator Layer
-    IA["Intent Agent<br/>Processes intent &<br/>identifies knowledge needs"]
+    IA[Intent Agent]
+    IA_Function["Processes intent &<br/>identifies knowledge needs"]
+    IA --- IA_Function
   end
   
   subgraph Task Agent Layer
-    KGA["Knowledge Graph Agent<br/>Retrieves contact info<br/>& business goals"]
+    KGA[Knowledge Graph Agent]
+    KGA_Function["Retrieves contact info<br/>& business goals"]
+    KGA --- KGA_Function
   end
   
   User --> CacheLayer

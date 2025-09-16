@@ -64,14 +64,13 @@ graph TD
 - Expand the **Orchestrator Layer** to include a **Planner Agent** alongside the Intent Agent.  
   - Planner Agent will handle workflow decisions and delegate tasks across multiple specialized agents.
 
-- Extend the **Task Agent Layer** by adding multiple specialized agents (e.g., Summarizer, Researcher, Notifier) to support complex multi-agent workflows.
+- Extend the **Task Agent Layer** by adding multiple specialized agents (e.g., RAG, Summarizer, Researcher, Notifier) to support complex multi-agent workflows.
 
 - Implement enhanced **agent-to-agent (A2A) communication** protocols for flexible, dynamic orchestration.
 
 - Incorporate advanced features such as:
   - Parallel and sequential task execution.
   - Fault tolerance, retries, and human-in-the-loop intervention.
-  - Comprehensive multi-tenant tenant context propagation and isolation.
 
 ---
 

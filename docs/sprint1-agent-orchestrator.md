@@ -37,19 +37,24 @@ This document describes the current low-level architecture for the multi-agent o
 
 ```mermaid
 graph TD
+  User[User Query:<br/>"Where is the contact number<br/>and what is the main goal<br/>of this business?"]
+  
   CacheLayer[Cache Layer]
-
+  
   subgraph Orchestrator Layer
-    IA[Intent Agent]
+    IA[Intent Agent<br/>Processes intent &<br/>identifies knowledge needs]
   end
-
+  
   subgraph Task Agent Layer
-    KGA[Knowledge Graph Agent]
+    KGA[Knowledge Graph Agent<br/>Retrieves contact info<br/>& business goals]
   end
-
-  CacheLayer -- Cache hit: return cached data --> User[User]
+  
+  User --> CacheLayer
+  CacheLayer -- Cache hit: return cached data --> User
   CacheLayer -- Cache miss: forward request --> IA
-  IA -- Calls API --> KGA
+  IA -- API call: knowledge retrieval --> KGA
+  KGA -- Returns: contact number<br/>& business goals --> IA
+  IA -- Final response --> User
 ```
 
 ---

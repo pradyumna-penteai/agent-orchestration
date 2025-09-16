@@ -75,12 +75,12 @@ This architecture matches industry best practices as documented in recent 2025 r
 
 ## References
 
-1. Anthropic: How we built our multi-agent research system - 2025  
-2. Microsoft Copilot Studio: Multi-agent orchestration announcements - 2025  
-3. AWS Blogs: Production-Ready Multi-Agent Systems - 2025  
-4. Multi-Tenant Architecture Guide - Microsoft Azure - 2025  
-5. Multi-Agent Orchestration Best Practices - V2 Solutions - 2025  
-6. Agents in Concert: Orchestrating AI in Multicloud - HCL Tech - 2025
+1. [Anthropic: How we built our multi-agent research system - 2025](https://www.anthropic.com/engineering/built-multi-agent-research-system)
+2. [Microsoft Copilot Studio: Multi-agent orchestration announcements - 2025](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/multi-agent-orchestration-maker-controls-and-more-microsoft-copilot-studio-announcements-at-microsoft-build-2025/)
+3. [AWS Blogs: Production-Ready Multi-Agent Systems - 2025](https://aws.amazon.com/blogs/opensource/introducing-strands-agents-1-0-production-ready-multi-agent-orchestration-made-simple/)
+4. [Multi-Tenant Architecture Guide - Microsoft Azure - 2025](https://learn.microsoft.com/en-us/azure/architecture/guide/multitenant/)
+5. [Multi-Agent Orchestration Best Practices - V2 Solutions - 2025](https://www.v2solutions.com/blogs/multi-agent-orchestration-collaborative-ai-workforces/)
+6. [Agents in Concert: Orchestrating AI in Multicloud - HCL Tech - 2025](https://www.hcltech.com/trends-and-insights/agents-in-concert-orchestrating-ai-in-multicloud)
 
 ---
 

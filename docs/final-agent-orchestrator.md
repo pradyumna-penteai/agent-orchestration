@@ -1,4 +1,3 @@
-```markdown
 # Multi-Agent Orchestration Architecture
 
 ## Overview
@@ -30,7 +29,7 @@ There are two main layers of agent-to-agent (A2A) communication within this arch
 
 ## Architecture Diagram
 
-```
+```mermaid
 graph TD
   subgraph Orchestrator Layer
     IA[Intent Agent]
@@ -86,5 +85,3 @@ This architecture matches industry best practices as documented in recent 2025 r
 ---
 
 *This README provides a clear blueprint for implementing a modern, scalable multi-agent orchestration platform suited for multi-tenant SaaS applications.*
-
-```
